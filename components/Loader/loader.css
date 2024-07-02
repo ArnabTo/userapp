@@ -1,0 +1,14 @@
+.spinner{
+    position: absolute;
+    padding: 1rem;
+    border: 10px solid white;
+    border-top: 10px solid #251515;
+    border-radius: 100%;
+    animation: spinner 1s linear infinite;
+    z-index: 100;
+}
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
+}
